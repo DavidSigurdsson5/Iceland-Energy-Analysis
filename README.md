@@ -5,6 +5,8 @@ This repository contains a MATLAB-based analysis of Iceland's fuel consumption a
 
 This study was conducted using data from the Icelandic Energy Authority (**Orkustofnun**) and other sources. The project includes calculations, visualizations, and scenario modeling to assess future energy needs.
 
+Additionally, this repository includes the group report **"Orkuskipti í samgöngum á Íslandi"**, which was written as part of the project. While the report was a collaborative effort, all MATLAB coding and data processing in the report were completed solely by Davíð Haukur Sigurðsson.
+
 ## **Table of Contents**  
 - [Installation](#installation)  
 - [Usage](#usage)  
@@ -25,7 +27,7 @@ This study was conducted using data from the Icelandic Energy Authority (**Orkus
 3. (If applicable) Download the required dataset (`OS-2019-T005-01.xlsx`).  
 4. Run the main MATLAB script:  
    ```matlab
-   run('Orka.m')
+   run('Orkahop.m')
    ```
 
 ## **Usage**  
@@ -50,6 +52,9 @@ This study was conducted using data from the Icelandic Energy Authority (**Orkus
 │── Data/
 │   │── OS-2019-T005-01.xlsx    # Dataset (not included in repo, but required)
 │
+│── Report/
+│   │── Orkuskipti_i_samgongum_a_Islandi.pdf  # Group report (MATLAB code & data processing by Davíð Haukur Sigurðsson)
+│
 │── Images/
 │   │── orkugraf1.png           # Saved graph for Scenario 1
 │   │── orkugraf2.png           # Saved graph for Scenario 2
@@ -64,5 +69,5 @@ This study was conducted using data from the Icelandic Energy Authority (**Orkus
 - **Samgöngustofa (Icelandic Transport Authority):** [https://www.samgongustofa.is](https://www.samgongustofa.is)  
 
 ## **Results**  
-This project produces bar charts comparing fuel consumption and electricity demand for different scenarios. The generated images are saved in the `Images/` directory for further use.
-
+The MATLAB project produces bar charts comparing fuel consumption and electricity demand for different scenarios. The generated images are saved in the `Images/` directory for further use.
+ 
