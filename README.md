@@ -25,7 +25,7 @@ This study was conducted using data from the Icelandic Energy Authority (**Orkus
 3. (If applicable) Download the required dataset (`OS-2019-T005-01.xlsx`).  
 4. Run the main MATLAB script:  
    ```matlab
-   run('Orkahop.m')
+   run('Orka.m')
    ```
 
 ## **Usage**  
